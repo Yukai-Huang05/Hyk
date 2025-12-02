@@ -4,7 +4,7 @@
 using namespace std;
 
 int convert(int n){
-    int result=3;
+    int result=4;
     if(n<8) return n;
     convert(n/8);
     cout<<n%8;
